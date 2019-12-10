@@ -1,9 +1,9 @@
 # Terrier-Trivia
 Member Names: 
-Pooja Chainani 
-Vanessa Giron 
-Se'Lina Lasher 
-Alex O'Connar 
+Pooja Chainani,
+Vanessa Giron, 
+Se'Lina Lasher, 
+Alex O'Connar, 
 Esperanza Rojas Hernandez
 
 
