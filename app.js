@@ -14,5 +14,7 @@
 
     //Create References
     const dbRefObject = firebase.database().ref().child('user');
+    //Syn Changes
+    dbRefObject.on('value',snap => console.log(snap.val()));
 
 }());
