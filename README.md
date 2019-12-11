@@ -12,6 +12,8 @@ How to 'build' project:
 
 YouTube Video Link: 
 
+Leaderboard Website Link: https://oconnoran17.github.io/TerrierTrivia/index.html
+
 
 
 Note: QuizAppv_1.12.zip was pushed by Pooja Chainani's account, but this version was a joint effort of Alex O'Connnor and Pooja Chainani
