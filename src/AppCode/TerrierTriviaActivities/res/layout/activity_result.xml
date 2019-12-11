@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quizapp.ResultActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="RESULT"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:fontFamily="@font/stardos_stencil" />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="168dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="0dp"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="3/5"
+        android:textSize="34dp"
+        app:fontFamily="@font/amiri" />
+
+    <TextView
+        android:id="@+id/totalScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Total Score: 333"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/amiri" />
+
+    <TextView
+        android:id="@+id/highScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="High Score: 300"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/amiri" />
+    <Button
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bg_white"
+        android:onClick="openLeaderBoardActivity"
+        android:text="Post "
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:text="return"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_white"
+        android:onClick="returnTop"/>
+
+
+</LinearLayout>
