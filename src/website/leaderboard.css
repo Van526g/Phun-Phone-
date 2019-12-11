@@ -80,6 +80,17 @@ h3{
     padding-top:0px;
     padding-bottom: 25px;
 }
+h4{
+    text-align: left;
+}
+div{
+    margin:0;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    padding-bottom: 200px;
+    text-align: left;
+    word-spacing: 10px;
+}
 @media only screen and (min-width: 768px){
     body{
         display: grid;
@@ -119,4 +130,5 @@ h3{
     nav{
         background: none;
     }
+
 }

@@ -14,15 +14,12 @@
             Made by BU students, for BU students
         </h2>
     </h1>
-    <main>
-          <p1>Welcome to the terrier trivia home page. You'll find the Leaderboard and all the latest game news here!</p1>
-          <a href="#" class="cta">Download Terrier Trivia</a>
-    </main>
     <aside>
         <figure>
             <figcaption>Navigation</figcaption>
-            <img src="gif_terrier.gif">
+            <img src="gif_terrier.gif" class="image1">
         </figure>
+        <img src="menu.svg" class="image2">
         <nav>
             <ul>
                 <li>
@@ -33,5 +30,24 @@
             </ul>
         </nav>
     </aside>
+    <main>
+            <p1>Welcome to the terrier trivia home page. You'll find the Leaderboard and all the latest game news here!</p1>
+            <a href="#" class="cta">Download Terrier Trivia</a>
+    </main>
+<!--       <pre id = "user">
+                Hello world
+            </pre> 
+         <script src="app.js" ></script>  -->
+    <script>
+        (function() {
+            var menu = document.querySelector('ul'),
+                menulink = document.querySelector('img');
+
+            menulink.addEventListener('click', function(e){
+                menu.classList.toggle('active');
+                e.preventDefault();
+            });
+        })();
+    </script>
 </body>
 </html>

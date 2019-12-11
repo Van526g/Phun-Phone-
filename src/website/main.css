@@ -14,7 +14,7 @@ aside{
     background-color: #501414;
     color: white;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto 40px;
     padding: 2em;
     background-size: cover;
 }
@@ -23,10 +23,14 @@ figure{
     height: 380px;
     width: 255px;
 }
-img{
+.image1{
     width: 150px;
     padding-top: 314px;
     padding-left: 45px;
+}
+.image2{
+    width: 40px;
+    cursor: pointer;
 }
 figcaption{
     font-size: 1.3em;
@@ -37,7 +41,16 @@ nav{
     background: white;
     background-size: auto;
 }
+.active{
+    position: absolute;
+    display: block;
+    width: 50%;
+    left:0;
+    top:0;
+    height: 100%;
+}
 ul{
+    display: none;
     list-style-type: none;
     margin:0;
     padding: 0;
@@ -94,6 +107,9 @@ p1{
         display: grid;
         grid-template-columns: 20% auto;
         padding: 2em;
+    }
+    .image2{
+        display: none;
     }
     aside{
         position: absolute;

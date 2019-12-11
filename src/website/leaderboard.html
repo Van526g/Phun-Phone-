@@ -7,6 +7,10 @@
     <meta http-equlv="X-UA-Compatible" content="ie-edge" />
     <link rel="stylesheet" href="leaderboard.css" >
     <title>Terrier Trivia</title>
+        <script
+                src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js">
+        </script>
+    
 </head>
 <body>
     <h1>Terrier Trivia!
@@ -18,6 +22,8 @@
         <h3>
             Leaderboard
         </h3>
+        <h4> Name and Score</h4>
+        <div id="leaderboard_div"></div>
     </main>
     <aside>
         <figure>
@@ -34,5 +40,8 @@
             </ul>
         </nav>
     </aside>
+    <pre id = "user">
+    </pre>
+    <script src="app.js"></script>
 </body>
 </html>
