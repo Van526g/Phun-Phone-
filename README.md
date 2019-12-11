@@ -13,7 +13,7 @@ Overview: 'Terrier Trivia' is an Android Studio application that is directed for
 Will pull up all the code used for our Activity files which is the brunt of our code.
 The rest of the code before that are the images we had to include within Android Studio and the edited XML files for the app.
 
-***How to access code for Website***
+***How to access code for Website***                                                          
 *Terrier-Trivia-/src/website*
 
 ***How to 'build' project:***
