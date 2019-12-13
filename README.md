@@ -23,6 +23,8 @@ To build our project we recommend downloading the latest .zip file TerrierTrivia
 
 ***YouTube Video Link:*** 
 
+https://youtu.be/0UpOZb6leT8
+
 **Leaderboard Website Link:*** https://oconnoran17.github.io/TerrierTrivia/index.html
 
 
